@@ -1,0 +1,58 @@
+    1  pkg update
+    2  pkg upgrade
+    3  pkg install git
+    4  git config --global user.email "ahmadbash200inumaitumbi@gmail.com"
+    5  git config --global user.name "Ahmad Bashiru Inuwa"
+    6  termux-setup-storage
+    7  cd storage/shared
+    8  cd
+    9  mkdir git-basic-exercises
+   10  cd git-basic-exercises
+   11  ls -a
+   12  git init
+   13  ls -a
+   14  git status
+   15  touch README.md
+   16  ls -a
+   17  git status
+   18  git log
+   19  git add README.md
+   20  git status
+   21  git rm --cached README.md
+   22  git status
+   23  git add README.md
+   24  git commit -m "initial commit"
+   25  git log
+   26  nano README.md
+   27  cat README.md
+   28  git status
+   29  git add README.md
+   30  git commit -m "second commit"
+   31  nano README.md
+   32  cat README.md
+   33  git status
+   34  git add README.md
+   35  git commit -m "third commit"
+   36  git log
+   37  git checkout f9f98d238d561dbb074892912b574e4f680013bc
+   38  git checkout ddff6af237ee6cac9d430a6bf167d22aff5de8ce
+   39  cat README.md
+   40  git checkout master
+   41  cat README.md
+   42  git branch
+   43  git branch milkshake-flavours
+   44  git branch
+   45  git checkout milkshake-flavours
+   46  git branch
+   47  nano milkshakes.md
+   48  git status
+   49  git add milkshakes.md
+   50  git commit -m "added initial flavours"
+   51  git log
+   52  git checkout master
+   53  git log
+   54  git branch history
+   55  git checkout history
+   56  git log
+   57  git branch
+   58  history > history.txt
